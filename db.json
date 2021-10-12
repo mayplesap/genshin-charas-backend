@@ -13,8 +13,8 @@
           "support": "B",
           "exploration": "C"
         },
-        "icon": "/images/travelerAnemoIcon.jpeg",
-        "card": "/images/travelerCard.jpeg",
+        "icon": "./images/travelerAnemoIcon.jpeg",
+        "card": "./images/travelerCard.jpeg",
         "lv1": {
           "hp": 912,
           "atk": 18,
