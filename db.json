@@ -1,100 +1,98 @@
 {
   "characters": [
     {
-      "travelerAnemo": {
-        "name": "Traveler",
-        "rarity": 5,
-        "element":  "Anemo",
-        "weapon": "Sword",
-        "releaseDate": "September 28, 2020",
-        "ratings": {
-          "bosses": "C",
-          "mobs": "A",
-          "support": "B",
-          "exploration": "C"
-        },
-        "icon": "/images/travelerAnemoIcon.jpeg",
-        "card": "/images/travelerCard.jpeg",
-        "lv1": {
-          "hp": 912,
-          "atk": 18,
-          "def": 57,
-          "stat": "ATK%",
-          "specialStat": 0
-        },
-        "lv90": {
-          "hp": 10875,
-          "atk": 212,
-          "def": 683,
-          "stat": "ATK%",
-          "specialStat": 24
-        },
-        "strengths": [
-          "Elemental Skill and Burst offers crowd control.",
-          "Normal Attack combo can apply Anemo.",
-          "Elemental Skill and Burst can absorb and deal additional Elemental DMG.",
-          "6th Constellation can reduce enemy Elemental RES."
+      "name": "Traveler",
+      "rarity": 5,
+      "element":  "Anemo",
+      "weapon": "Sword",
+      "releaseDate": "September 28, 2020",
+      "ratings": {
+        "bosses": "C",
+        "mobs": "A",
+        "support": "B",
+        "exploration": "C"
+      },
+      "icon": "/images/travelerAnemoIcon.jpeg",
+      "card": "/images/travelerCard.jpeg",
+      "lv1": {
+        "hp": 912,
+        "atk": 18,
+        "def": 57,
+        "stat": "ATK%",
+        "specialStat": 0
+      },
+      "lv90": {
+        "hp": 10875,
+        "atk": 212,
+        "def": 683,
+        "stat": "ATK%",
+        "specialStat": 24
+      },
+      "strengths": [
+        "Elemental Skill and Burst offers crowd control.",
+        "Normal Attack combo can apply Anemo.",
+        "Elemental Skill and Burst can absorb and deal additional Elemental DMG.",
+        "6th Constellation can reduce enemy Elemental RES."
+      ],
+      "weaknesses": [
+        "Unable to move when charging up Elemental Skill.",
+        "Skills have a long cooldown."
+      ],
+      "roles": {
+        "dPS": false,
+        "subDPS": true,
+        "support": true
+      },
+      "weapons": {
+        "dPS": "",
+        "subDPS": "Iron String, Festerin Desire, Sacrificial Sword",
+        "support": "Iron String, Festerin Desire, Sacrificial Sword"
+      },
+      "artifacts": {
+        "dPS": [],
+        "subDPS": [
+          "Viridescent Venerer 4pc", 
+          "Viridescent Venerer 2pc, Noblesse Oblige 2pc",
+          "Viridescent Venerer 2pc, Gladiators Finale 2pc"
         ],
-        "weaknesses": [
-          "Unable to move when charging up Elemental Skill.",
-          "Skills have a long cooldown."
+        "support": [
+          "Viridescent Venerer 4pc", 
+          "Viridescent Venerer 2pc, Noblesse Oblige 2pc",
+          "Viridescent Venerer 2pc, Gladiators Finale 2pc"
+        ]
+      },
+      "talents": {
+        "normalAttack": [
+          "<strong>Foreign Ironwind</strong><br>",
+          "<strong>Normal Attack</strong><br>Performs up to 5 rapid strikes.",
+          "<strong>Charged Attack</strong><br>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
+          "<strong>Plunging Attack</strong><br>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
         ],
-        "roles": {
-          "dPS": false,
-          "subDPS": true,
-          "support": true
-        },
-        "weapons": {
-          "dPS": "",
-          "subDPS": "Iron String, Festerin Desire, Sacrificial Sword",
-          "support": "Iron String, Festerin Desire, Sacrificial Sword"
-        },
-        "artifacts": {
-          "dPS": [],
-          "subDPS": [
-            "Viridescent Venerer 4pc", 
-            "Viridescent Venerer 2pc, Noblesse Oblige 2pc",
-            "Viridescent Venerer 2pc, Gladiators Finale 2pc"
-          ],
-          "support": [
-            "Viridescent Venerer 4pc", 
-            "Viridescent Venerer 2pc, Noblesse Oblige 2pc",
-            "Viridescent Venerer 2pc, Gladiators Finale 2pc"
-          ]
-        },
-        "talents": {
-          "normalAttack": [
-            "<strong>Foreign Ironwind</strong><br>",
-            "<strong>Normal Attack</strong><br>Performs up to 5 rapid strikes.",
-            "<strong>Charged Attack</strong><br>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
-            "<strong>Plunging Attack</strong><br>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-          ],
-          "elementalSkill": [
-            "<strong>Palm Vortex</strong><br>Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to opponents in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.",
-            "<strong>Hold</strong><br>DMG and AoE will gradually increase.",
-            "<strong>Elemental Absorption</strong><br>If the vortex comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use."
-          ],
-          "alternateSprint": [],
-          "elementalBurst": [
-            "<strong>Gust Surge</strong><br>Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing Anemo DMG",
-            "<strong>Elemental Absorption</strong><br>If the vortex comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use."
-          ],
-          "firsyAscensionPassive": [
-            "<strong>Slitting Wind</strong><br>The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path."
-          ],
-          "fourthAscensionPassive": [
-            "<strong>Second Wind</strong><br>Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s."
-          ],
-          "utilityPassive": []
-        },
-        "constellations": {
-          "c1": "<strong>Raging Vortex</strong><br>Palm Vortec pulls in opponents and objects within a 5m radius.",
-          "c2": "<strong>Uprising Whirlwind</strong><br>Increases Energy Recharge by 16%.",
-          "c3": "<strong>Sweeping Gust</strong><br>Increases the Level of Gust Surge by 3. Maximum upgrade level is 15.",
-          "c4": "<strong>Cherishing Breezes</strong><br>Reduces DMG taken while casting Palm by 10%.",
-          "c5": "<strong>Vortex Stellaris</strong><br>Increases the Level of Palm Vortex by 3. Maximum upgrade level is 15.",
-          "c6": "<strong>Intertwined Winds</strong><br>Targets who take DMG from Gust Surge have their Anemo RES decreased by 20%.<br>If an Elemental Absorption occured, then their RES towards the corresponding Element is also decreased by 20%."
-        }
+        "elementalSkill": [
+          "<strong>Palm Vortex</strong><br>Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to opponents in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.",
+          "<strong>Hold</strong><br>DMG and AoE will gradually increase.",
+          "<strong>Elemental Absorption</strong><br>If the vortex comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use."
+        ],
+        "alternateSprint": [],
+        "elementalBurst": [
+          "<strong>Gust Surge</strong><br>Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing Anemo DMG",
+          "<strong>Elemental Absorption</strong><br>If the vortex comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use."
+        ],
+        "firsyAscensionPassive": [
+          "<strong>Slitting Wind</strong><br>The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path."
+        ],
+        "fourthAscensionPassive": [
+          "<strong>Second Wind</strong><br>Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s."
+        ],
+        "utilityPassive": []
+      },
+      "constellations": {
+        "c1": "<strong>Raging Vortex</strong><br>Palm Vortec pulls in opponents and objects within a 5m radius.",
+        "c2": "<strong>Uprising Whirlwind</strong><br>Increases Energy Recharge by 16%.",
+        "c3": "<strong>Sweeping Gust</strong><br>Increases the Level of Gust Surge by 3. Maximum upgrade level is 15.",
+        "c4": "<strong>Cherishing Breezes</strong><br>Reduces DMG taken while casting Palm by 10%.",
+        "c5": "<strong>Vortex Stellaris</strong><br>Increases the Level of Palm Vortex by 3. Maximum upgrade level is 15.",
+        "c6": "<strong>Intertwined Winds</strong><br>Targets who take DMG from Gust Surge have their Anemo RES decreased by 20%.<br>If an Elemental Absorption occured, then their RES towards the corresponding Element is also decreased by 20%."
       }
     }, 
     {
