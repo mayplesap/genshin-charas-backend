@@ -1,11 +1,15 @@
 {
-  "name": "genshin-backend",
+  "name": "genshin-charas-server",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "mayplesap",
   "license": "ISC",
-  "description": ""
+  "description": "genshin database with character information",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
 }
